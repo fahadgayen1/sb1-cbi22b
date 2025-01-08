@@ -15,7 +15,12 @@ export default function Navbar() {
             <a href="#portfolio" className="text-gray-600 hover:text-blue-600 transition-colors">Portfolio</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
           </div>
-          <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+          <a 
+            href="https://calendly.com/fahad-clivao/15min" 
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Get Started
           </a>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Clock, Coffee } from 'lucide-react';
+import { Calendar, Clock, Coffee, ArrowRight } from 'lucide-react';
 
 export default function Booking() {
   return (
@@ -40,12 +40,12 @@ export default function Booking() {
               </div>
               <div className="flex flex-col items-center justify-center text-center space-y-4">
                 <a 
-                  href="https://calendly.com/your-link" 
-                  target="_blank" 
+                  href="https://calendly.com/fahad-clivao/15min"
+                  className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 text-lg"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium"
                 >
-                  Schedule Your Call
+                  Schedule Your Call <ArrowRight className="h-5 w-5" />
                 </a>
                 <p className="text-sm text-gray-600">
                   Or email me directly at: <a href="mailto:hello@clivao.com" className="text-blue-600 hover:underline">hello@clivao.com</a>

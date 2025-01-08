@@ -18,8 +18,10 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="#booking" 
+              href="https://calendly.com/fahad-clivao/15min" 
               className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 text-lg"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Book a Strategy Call <ArrowRight className="h-5 w-5" />
             </a>
