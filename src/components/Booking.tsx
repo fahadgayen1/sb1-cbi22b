@@ -48,7 +48,7 @@ export default function Booking() {
                   Schedule Your Call <ArrowRight className="h-5 w-5" />
                 </a>
                 <p className="text-sm text-gray-600">
-                  Or email me directly at: <a href="mailto:hello@clivao.com" className="text-blue-600 hover:underline">hello@clivao.com</a>
+                  Or email me directly at: <a href="mailto:fahad@clivao.com" className="text-blue-600 hover:underline">fahad@clivao.com</a>
                 </p>
               </div>
             </div>
