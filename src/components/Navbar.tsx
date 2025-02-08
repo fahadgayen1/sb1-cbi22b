@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-8">
             <a href="#process" className="text-gray-600 hover:text-blue-600 transition-colors">Process</a>
             <a href="#portfolio" className="text-gray-600 hover:text-blue-600 transition-colors">Portfolio</a>
-            <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#booking" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
           </div>
           <a 
             href="https://calendly.com/fahad-clivao/15min" 
